@@ -1,0 +1,16 @@
+Create a new environment
+1. conda create -p venv python==3.8 -y
+2. conda activate venv/
+3. Create readme and .gitignore files
+4. Create folder structure
+5. Run pip install -r requirements.txt
+
+While committing to github, add venv to .gitignore so it doesn't get pushed.
+If it does get pushed, type
+git rm -r --cached venv
+git commit -m "Remove venv from Git tracking"
+git push origin main
+
+
+The packages are installed in 
+Project/venv/lib/python3.8/site-packages/library_names

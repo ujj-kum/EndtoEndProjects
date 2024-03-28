@@ -1,6 +1,7 @@
 # sys contains methods to manipulate python runtime environment
 import sys
 import logging
+from src import logger
 
 def error_message_details(error, error_detail:sys):
     # exc_tb shows the file and line number where the exception has occured
